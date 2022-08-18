@@ -1,0 +1,71 @@
+body  {
+  background-image: url("images/1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color:white;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 50%;
+  float: right; */
+  background-color: black;
+  padding: 15px;
+}
+h2 {
+  color:white;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #CC5500;
+  text-align: center;
+}
+h3 {
+  color:white;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 50%;
+  float: right; */
+  background-color: black;
+  opacity: 0.45;
+  text-align: left;
+}
+p {
+  color:white;
+  font-size: smaller;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* width: 50%;
+  float: right; */
+  background-color: black;
+  opacity: 0.45;
+}
+
+.column {
+  /* float: right;
+  width: 33.33%; */
+  flex: 33.33%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.wholething {
+  width: 50%;
+  float: right;
+  /* position: fixed;
+  right: 60px; */
+  color:white;
+}
+
+.resized {
+  height: 33%;
+}
+
+.myfooter {
+  float: right;
+  color:white;
+  background-color: black;
+  opacity: 0.45;
+}
